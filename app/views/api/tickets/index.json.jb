@@ -1,0 +1,8 @@
+@tickets.map do |ticket|{
+  id: ticket.id,
+  date: ticket.date,
+  street_no: ticket.street_no,
+  direction: ticket.direction,
+  street_name: ticket.street_name,
+}
+end
